@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the template folder name
-template_folder="template"
+template_folder="template-webpack"
 
 # Check if a new folder name is provided as a command-line argument
 if [ $# -eq 0 ]; then
