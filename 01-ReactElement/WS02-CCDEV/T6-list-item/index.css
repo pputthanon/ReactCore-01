@@ -1,0 +1,58 @@
+/* ==== "Inter" FONT-FAMILY FROM FONTS.GOOGLE.COM  ==== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+/* ==== ROOT RESET ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ==== CSS VARIABLES ==== */
+:root {
+    --primary-color: #335eea;
+    --link-color: #506690;
+    --btn-hover-color: #2b50c7;
+    --lg-heading: #161c2d;
+    --text-content: #869ab8;
+    --fixed-header-height: 4.5rem;
+}
+
+/* ==== RESET HTML ==== */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* background-color: black; */
+    /* height: 100vh; */
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* ====  NAV-MENU  ==== */
+.nav_menu_list {
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu_item .nav_menu_link {
+    font-size: 16.5px;
+    line-height: 27px;
+    color: var(--link-color);
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.nav_menu_link:hover {
+    color: var(--primary-color);
+}
