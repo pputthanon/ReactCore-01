@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; 
 }
 
 body {
@@ -14,8 +14,9 @@ body {
 
 h1 {
     font-size: 4rem;
-    text-align: center;
+    /* text-align: start; */
     margin: 3rem 0;
+    /* border: 1px solid black; */
     /* color: red; */
 }
 
@@ -26,6 +27,7 @@ h1 {
     align-items: center;
     background-color: wheat;
     height: 100vh;
+
 }
 
 .text-red {
@@ -34,4 +36,14 @@ h1 {
 
 .text-blue {
     color: blue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain {
+    border: 1px solid black;
+    margin: 10px;
 }

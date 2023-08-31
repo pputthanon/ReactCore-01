@@ -12,13 +12,13 @@
 const weight = 40
 const height = 1.47
 
-function calcBMI(height, weight) {
-    return weight/height**2;
+function calcBMI(h, w) {
+    return w/h**2;
 } 
 
 const BMI = (
     <div>
-        <h3>BMI = {calcBMI(1.47,40)}</h3>
+        <h3>BMI = {calcBMI(height,weight).toFixed(2)}</h3>
     </div>
 );
 

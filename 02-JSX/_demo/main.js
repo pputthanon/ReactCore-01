@@ -10,12 +10,17 @@ const header = <h1>Hello</h1>;
 
 // #################### 2B : JSX (JavaScript Syntax Extension + Babel)
 // Declarative : อยากได้อะไรให้บอก เดี๋ยวจัดการที่เหลือเอง
+// ใช้ babel ในการ Transpile (ES6+ => ES5)
 // const header = <h1>Hello</h1>; // ReactElement
+// JSX == <></>
+// แทรก JS ลงใน JSX ให้ใช้ {}
 // สามารถแทรกค่า Expression โดยการใส่ {}
-// ***** ไม่ display Boolean && null,undefined *****
+// ***** ไม่ display Boolean && null,undefined 
 // ***** ไม่ render : Object *****
 // create ได้แค่ one root element
-// JSX : HTML likes Syntax == ReactElement
+// JSX : HTML likes Syntax (modern syntax) == ReactElement
+// 1 Tag == 1 ReactElement == 1 Node (V_DOM) == 1 Obj
+// 1 JSX == 1 ReactElement == HTML likes Syntax
 // สร้างตัวแปรข้างนอก ใส่ style ใน inline แล้วก็แทรก Obj ex: <p style={styleObj}>DOG : {userPets.dog}</p>
 
 const userAge = 30;
@@ -62,3 +67,6 @@ const domNode = document.getElementById("root");
 const root = ReactDOM.createRoot(domNode);
 
 root.render(userProfile);
+
+
+

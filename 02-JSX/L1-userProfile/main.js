@@ -11,11 +11,12 @@
 
 const fullName = "Pawinee Putthanon";
 const birthYear = 1999
+let textColor = 'text-blue'
 
 const userProfile = (
     <div>
-        <h1> Full Name : {fullName}</h1>
-        <p>Age : {2023 - birthYear}</p>
+        <h1 className='text-red'> Full Name : {fullName}</h1>
+        <p className={textColor}>Age : {2023 - birthYear}</p>
     </div>
 )
 

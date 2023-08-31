@@ -7,10 +7,10 @@
 
 // #1 React : JSX
 
-const  createForm = (
+const createForm = (
     <div>
-        <input className="username" id="username" name="username"></input>
         <label htmlFor="username">Username</label>
+        <input className="username" id="username" name="username"></input>
     </div>
 )
 

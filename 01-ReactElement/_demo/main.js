@@ -18,7 +18,7 @@ console.log('Learning React')
 // ################################# React : Create React Element #################################
 // <button class="red">cart</button>
 
-// ตัวที่หนึ่ง = tag ที่พิมพ์ในแบบ string (parents), ตัวที่สอง = {obj} ใน React เรียกว่า Props, ตัวที่ 3 = Text (children ของ parents : จริงๆแล้วมันเก็บเป็น Array ด้วย / เขียนต่อกันยาวๆได้เล้ย)
+// ตัวที่หนึ่ง = tag ที่พิมพ์ในแบบ string (parents), ตัวที่สอง = {obj} ใน React เรียกว่า Props, ตัวที่ 3 = Text (children ของ parents : จริงๆแล้วมันเก็บเป็น Array ด้วย => เขียนต่อกันยาวๆได้เล้ย)
 // ใน React ต้องเปลี่ยนเป็น camelCase
 // class => className ** ใน React ใช้แบบนี้ เนื่องจาก class เป็นคำสงวน
 

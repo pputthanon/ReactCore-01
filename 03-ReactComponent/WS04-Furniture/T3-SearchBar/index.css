@@ -7,10 +7,32 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%;
 }
 
 body {
     height: 100vh;
     font-family: 'poppins', sans-serif;
 }
+ img {
+    width: 20px;
+    border: none;
+ }
+ input {
+    height: fit-content;
+    padding: 5px;
+
+ }
+ fieldset {
+    width: fit-content;
+    border: none; 
+    position: relative;
+ }
+ button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    
+ }
